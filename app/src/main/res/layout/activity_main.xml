@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.myproject.activitys.MainActivity">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:columnCount="3"
+        android:rowCount="4"
+        android:orientation="horizontal"
+        android:useDefaultMargins="false"
+        android:alignmentMode="alignBounds">
+
+        <!-- כל הכפתורים ימלאו את החלל בצורה שווה -->
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:adjustViewBounds="true"
+            android:contentDescription="T0D0"
+            android:onClick="func_button"
+            android:scaleType="centerInside"
+            app:srcCompat="@mipmap/front" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:adjustViewBounds="true"
+            android:contentDescription="T0D0"
+            android:onClick="func_button"
+            android:scaleType="centerInside"
+            app:srcCompat="@mipmap/front" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:adjustViewBounds="true"
+            android:contentDescription="T0D0"
+            android:onClick="func_button"
+            android:scaleType="centerInside"
+            app:srcCompat="@mipmap/front" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:adjustViewBounds="true"
+            android:contentDescription="T0D0"
+            android:onClick="func_button"
+            android:scaleType="centerInside"
+            app:srcCompat="@mipmap/front" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:adjustViewBounds="true"
+            android:contentDescription="T0D0"
+            android:onClick="func_button"
+            android:scaleType="centerInside"
+            app:srcCompat="@mipmap/front" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:adjustViewBounds="true"
+            android:contentDescription="T0D0"
+            android:onClick="func_button"
+            android:scaleType="centerInside"
+            app:srcCompat="@mipmap/front" />
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:adjustViewBounds="true"
+            android:contentDescription="T0D0"
+            android:onClick="func_button"
+            android:scaleType="centerInside"
+            app:srcCompat="@mipmap/front" />
+
+        <ImageButton
+            android:id="@+id/imageButton8"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:adjustViewBounds="true"
+            android:contentDescription="T0D0"
+            android:onClick="func_button"
+            android:scaleType="centerInside"
+            app:srcCompat="@mipmap/front" />
+
+        <ImageButton
+            android:id="@+id/imageButton9"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:adjustViewBounds="true"
+            android:contentDescription="T0D0"
+            android:onClick="func_button"
+            android:scaleType="centerInside"
+            app:srcCompat="@mipmap/front" />
+
+        <ImageButton
+            android:id="@+id/imageButton10"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:adjustViewBounds="true"
+            android:contentDescription="T0D0"
+            android:onClick="func_button"
+            android:scaleType="centerInside"
+            app:srcCompat="@mipmap/front" />
+
+        <ImageButton
+            android:id="@+id/imageButton11"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:adjustViewBounds="true"
+            android:contentDescription="T0D0"
+            android:onClick="func_button"
+            android:scaleType="centerInside"
+            app:srcCompat="@mipmap/front" />
+
+        <ImageButton
+            android:id="@+id/imageButton12"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:adjustViewBounds="true"
+            android:contentDescription="T0D0"
+            android:onClick="func_button"
+            android:scaleType="centerInside"
+            app:srcCompat="@mipmap/front" />
+
+    </GridLayout>
+
+</LinearLayout>
